@@ -1,0 +1,11 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Front-End Office/" title="Home"  description="Home">
+        <siteMapNode url="~/Front-End Office/Default.aspx" title="Начало"  description="Начало" />
+        <siteMapNode url="~/Front-End Office/About Us/Default.aspx" title="За Нас"  description="За Нас" />
+        <siteMapNode url="~/Front-End Office/Collections/Default.aspx" title="Каталог"  description="Каталог" />
+        <siteMapNode url="~/Front-End Office/Shopping Cart/Default.aspx" title="Online Магазин"  description="Online Магазин" />
+        <siteMapNode url="~/Front-End Office/Celebrities/Default2.aspx" title="Новини"  description="Новини" />
+        <siteMapNode url="~/Front-End Office/Leisure Time/Default.aspx" title="Контакти"  description="Контакти" />
+    </siteMapNode>
+</siteMap>

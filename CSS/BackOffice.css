@@ -1,0 +1,241 @@
+﻿#AdminContents
+{
+    border-top-style: solid;
+    border-top-width: thin;
+    border-top-color: #000066;
+}
+#MenuWrapper
+{
+    margin-left: 100px;
+}
+
+.MainMenu
+{
+    width: 100%;
+    color: #000000;
+    height: 40px;
+    margin-top: 5px;
+}
+.MainMenu ul li
+{
+    width:131px;
+    margin-right: 1px;
+    text-align: center;
+    height: 40px;
+    line-height: 40px;
+    vertical-align: middle;
+}
+.MainMenu ul li a:link
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #000000;
+}
+.MainMenu ul li a:visited
+{
+    color: #660066;
+}
+
+
+.MainMenu ul li a:hover
+{
+    background-position: center center;
+    color: #990099;
+    font-size: large;
+    font-weight: bold;
+}
+.MainMenu ul li a:active
+{
+    color: #000000;
+    font-weight: bold;
+    font-style: italic;
+}
+.MainMenu ul li a.selected
+{
+    font-weight: bold;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+}
+
+#PageWrapper
+{
+    margin-right: 10%;
+    margin-left: 10%;
+    margin-top: 100px;
+    border-radius: 15px;
+}
+body
+{
+    background-position: center top;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-image: url('../Pictures/Fashion.png');
+    background-color: #CCCCCC;
+}
+#Right
+{
+    width: 79%;
+    padding-left: 5px;
+    margin-right: 5px;
+    float: right;
+    padding-top: 5px;
+}
+#Left
+{
+    width: 20%;
+    padding-left: 5px;
+    margin-right: 5px;
+    float: right;
+    padding-top: 5px;
+}
+#Footer
+{
+    clear:both;
+    color:White;
+}
+.BrandList
+{
+    background-position: center center;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url('../Pictures/List.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    border-radius: 15px;
+}
+.BrandListHead
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #000000;
+}
+a.BrandUnselected
+{
+    text-decoration: none;
+    color: #003366;
+}
+a.BrandUnselected:hover {
+  text-decoration: underline;
+}
+a.BrandSelected
+{
+    line-height: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.CategoryList
+{
+    text-align: right;
+    margin-top: 20px;
+    background-image: url('../Pictures/List.jpg');
+    width:100%;
+    border-radius: 15px;
+}
+.CategoryListHeader
+{
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #000000;
+}
+a.CategoryUnselected
+{
+    text-decoration: none;
+    color: #003366;
+}
+a.CategoryUnselected:hover {
+  text-decoration: underline;
+}
+a.CategorySelected
+{
+    line-height: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+#CatalogTitle {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+#CatalogDescription {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#ProductImage {
+  border: 2px solid #c6e1ec;
+  float: left;
+  margin-left: 5px;
+  margin-right: 5px;
+  vertical-align: top;
+}
+#ProductTitle a{
+  font-size: 19px;
+  font-weight: bold;
+  margin: 10px 1px 0 0;
+  color: #fff;
+}
+#ProductTitle {
+  font-size: 19px;
+  font-weight: bold;
+  margin: 10px 1px 0 0;
+  color: #fff;
+}
+#Price
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+    float: right;
+}
+#Descr
+{
+    color:White;
+    float:left;
+    margin-left:5px;
+    margin-right:5px;
+
+}
+.CartSummary
+{
+    border: medium solid #FFFFFF;
+    padding: 3px 2px 5px;
+    margin-right: 5px;
+    color: #FFFFFF;
+    text-align: right;
+    clear: both;
+    bottom: 0px;
+    border-radius: 15px;
+    left: 0px;
+    position: static;
+    margin-top: 30px;
+}
+.CartLink
+{
+    font-size: large;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.ImageField
+{
+ width: 75px;
+ height: 100px;   
+}

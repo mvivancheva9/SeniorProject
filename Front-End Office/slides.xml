@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters copyright="anvsoftPFMTheme">
+    <preferences>
+        <global>
+            <basic_property movieWidth="600" movieHeight="380" groundinsize="0" html_title="Title" loadStyle="Pie" startAutoPlay="true" continuum="true" backgroundColor="" inbordercolor="" anvsoftMenu="false" hideAdobeMenu="true" photoDynamicShow="false" enableURL="false" transitionArray="" clickToAutoPlay="true" randomPlayingPhotos="false" frameRate="50"/>
+            <title_property showTitle="false" photoTitleColor="" backgroundColor="" alpha="30" autoHide="true"/>
+            <music_property path="" stream="true" loop="true" enableVolumeDrag="true" defaultVolume="80" musicButtonColor="0xffffff"/>
+            <photo_property topPadding="1" bottomPadding="43" leftPadding="1" rightPadding="1"/>
+            <description_property textleftborder="2" texttopborder="2" enable="true" backgroundColor="" backgroundAlpha="10"/>
+        </global>
+        <thumbnail>
+            <basic_property thumWidth="80" thumHeight="55" skewwidth="60" skewheight="40" thumbnailposition="bottom" thumbnailboxboder="0" thumborder="1" thumSpacing="0" borderColor="0x4b3323" currentBorderColor="0xffffff" shadowalpha="60" thumway="inward"/>
+            <button_property btnhide="true" btnsize="20" btnspacing="5" buttonColor="0xc0c0c0" btnfiltercolor="0xffffff"/>
+        </thumbnail>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Bulaggi-nr1" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Bulaggi-nr2" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="99" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0004.jpg" d_URL="slides/p_0004.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="98" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0005.jpg" d_URL="slides/p_0005.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="40260 kopie" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0006.jpg" d_URL="slides/p_0006.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="40261 kopie" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0007.jpg" d_URL="slides/p_0007.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="50009 kopie" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0008.jpg" d_URL="slides/p_0008.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="97" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0009.jpg" d_URL="slides/p_0009.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="40259 kopie" width="598" height="336"/>
+        <slide jpegURL="thumbs/t_0010.jpg" d_URL="slides/p_0010.jpg" transition="53" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="40258 wrong material extr kopie" width="598" height="336"/>
+    </album>
+</flash_parameters>

@@ -1,0 +1,13 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+    <siteMapNode url="~/Back-End Office/" title="Home"  description="Home">
+        <siteMapNode url="~/Back-End Office/AdminAboutUs.aspx" title="За Нас"  description="За Нас - Настройки" />
+
+        <siteMapNode url="~/Back-End Office/AdminNews.aspx" title="Новини"  description="Новини - Настройки" />
+        <siteMapNode url="~/Back-End Office/AdminLeisure.aspx" title="Контакти"  description="Контакти - Настройки" />
+        <siteMapNode url="~/Back-End Office/AdminBrand.aspx" title="Online Магазин"  description="Online Магазин - Настройки" />
+        <siteMapNode url="~/Back-End Office/AdminBrand2.aspx" title="Каталог"  description="Каталог - Настройки" />
+        <siteMapNode url="~/Back-End Office/AdminOrders.aspx" title="Поръчки"  description="Поръчки - Настройки" />
+
+    </siteMapNode>
+</siteMap>

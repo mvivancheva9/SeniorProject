@@ -1,0 +1,368 @@
+﻿.DataList1
+{
+    margin-top: 50px;
+    margin-left: 70px;
+}
+
+#flash
+{
+    padding-left: 100px;
+    padding-top: 40px;
+}
+#MainContent
+{
+    width: 800px;
+    min-height: 400px;
+    background-image: url('../Pictures/Main.png');
+}
+#inside
+{
+    padding-left: 100px;
+    padding-top: 20px;
+}
+#PageWrapper
+{
+    margin-left: 200px;
+    margin-top: 100px;
+    border-radius: 15px;
+    background-color: #FFFFFF;
+    min-height: 400px;
+    width: 800px;
+}
+body
+{
+    background-repeat: no-repeat;
+    width: 100%;
+    height: 80%;
+    background-color: #f0dacf;
+    background-image: url('../Pictures/Fashion.png');
+}
+#MenuWrapper
+{
+    float: left;
+    margin-right: 100px;
+    margin-left: 1010px;
+
+}
+.MainMenu
+{
+    width: 150px;
+    color: #FFFFFF;
+    height: 30px;
+    margin-top: 5px;
+}
+.MainMenu ul li
+{
+    width: 150px;
+    margin-bottom:5px;
+    text-align: center;
+    height: 30px;
+    line-height: 30px;
+    vertical-align: middle;
+    background-color: #000;
+    border-radius: 15px;
+    background-image: url('../Pictures/see.gif');
+    
+}
+.MainMenu ul li a:link
+{
+    background-position: center center;
+    background-repeat: no-repeat;
+    color: #fff;
+}
+.MainMenu ul li a:visited
+   {
+    color: #fff;
+   }
+
+
+.MainMenu ul li a:hover
+{
+    background-position: center center;
+    color: #FFF;
+    font-size: large;
+    font-weight: bold;
+}
+.MainMenu ul li a:active
+{
+    
+    background-repeat: no-repeat;
+    background-position: center center;
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.MainMenu ul li a.selected
+{
+    
+    font-weight: bold;
+    color: #000;
+    font-family: Arial, Helvetica, sans-serif;
+    border-radius: 15px;
+    background-repeat: repeat;
+    background-image: url('../Pictures/List.jpg');
+}
+.SiteMap a
+{
+    color: #FFFFFF;
+    font-weight: bold;
+}
+.SiteMap
+{
+    color: #FFCCFF;
+    vertical-align: middle;
+    line-height: 40px;
+}
+.Slide
+{
+    background-image: url('../Pictures/slide.png');
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-left: 5px;
+    
+}
+#right
+{
+    width: 20%;
+    height: 450px;
+    padding-left: 5px;
+    margin-right: 5px;
+    float: right;
+    padding-top: 5px;
+    color:White;
+}
+#Collection
+{
+    width: 70%;
+    height: 100%;
+    float: right;
+    margin-right: 5px;
+    color: #FFFFFF;
+    margin-left: 5px;
+}
+
+.BrandList
+{
+    background-position: center center;
+    text-align: center;
+    margin-top: 20px;
+    background-image: url('../Pictures/List.jpg');
+    background-repeat: repeat;
+    background-attachment: fixed;
+    border-radius: 15px;
+}
+.BrandListHead
+{
+    font-size: 20px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #000000;
+}
+a.BrandUnselected
+{
+    text-decoration: none;
+    color: #003366;
+}
+a.BrandUnselected:hover {
+  text-decoration: underline;
+}
+a.BrandSelected
+{
+    line-height: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+.CategoryList
+{
+    text-align: right;
+    margin-top: 20px;
+    background-image: url('../Pictures/List.jpg');
+    width:100%;
+    border-radius: 15px;
+}
+.CategoryListHeader
+{
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    color: #000000;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #000000;
+}
+a.CategoryUnselected
+{
+    text-decoration: none;
+    color: #003366;
+}
+a.CategoryUnselected:hover {
+  text-decoration: underline;
+}
+a.CategorySelected
+{
+    line-height: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: black;
+    font-size: large;
+}
+#CatalogTitle {
+  color: red;
+  font-size: 24px;
+  font-weight: bold;
+}
+#CatalogDescription {
+  color: white;
+  font-weight: bold;
+  font-size: 14px;
+}
+
+#ProductImage
+{
+    border: 2px solid #2F1205;
+    float: left;
+    margin-left: 5px;
+    margin-right: 10px;
+    vertical-align: top;
+}
+#ActivityImage
+{
+    border: 2px solid #c6e1ec;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    vertical-align: top;
+}
+#ProductTitle a
+{
+    font-size: 17px;
+    font-weight: bold;
+    color: #000000;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+#Attribute
+{
+    margin-right: 10px;
+}
+#ActivityTitle
+{
+    font-size: 19px;
+    font-weight: bold;
+    margin: 0px 1px 0 0;
+    color: #fff;
+    float: right;
+    width: 60%;
+}
+#Price
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #fff;
+}
+#Descr
+{
+    color: White;
+    float: left;
+    margin-left: 5px;
+    margin-right: 5px;
+    
+}
+#ActivityDescr
+{
+    color: White;
+    float: right;
+    margin-left: 5px;
+    margin-right: 5px;
+    width: 60%;
+    margin-top: 10px;
+    text-indent: 20px;
+}
+
+.CartSummary
+{
+    border: medium solid #FFFFFF;
+    padding: 3px 2px 5px;
+    margin-right: 5px;
+    color: #FFFFFF;
+    text-align: right;
+    clear: both;
+    bottom: 0px;
+    border-radius: 15px;
+    left: 0px;
+    position: static;
+    margin-top: 30px;
+}
+.CartLink
+{
+    font-size: large;
+    font-weight: bold;
+    color: #FFFFFF;
+}
+.FashionList
+{
+    text-align: right;
+    width: 100%;
+    margin-left: 40px;
+    margin-top: 20px;
+}
+.FashionListHeader
+{
+    font-size: 17px;
+    font-weight: bold;
+    font-style: normal;
+    font-variant: normal;
+    text-transform: none;
+    text-align: center;
+    color: #FFFFFF;
+    border-bottom-style: solid;
+    border-bottom-width: medium;
+    border-bottom-color: #FFFFFF;
+}
+a.FashionUnselected
+{
+    text-decoration: none;
+    color: #FFFFFF;
+}
+a.FashionUnselected:hover {
+  text-decoration: underline;
+}
+a.FashionSelected
+{
+    line-height: 25px;
+    font-weight: bold;
+    text-decoration: none;
+    color: White;
+    font-size: large;
+}
+#Sidebar
+{
+    margin-left: 1%;
+    float: left;
+}
+#AddtoShoppingCart a:link
+{
+    color: #FFFFFF;
+}
+#Pager
+{
+    color: #FFFFFF;
+}
+#Pager a:link
+{
+    color: #FFFFFF;
+}
+#Pager a:visited
+   {
+    color: #fff;
+   }

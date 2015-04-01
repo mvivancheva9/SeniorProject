@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<flash_parameters copyright="anvsoftPFMTheme">
+    <preferences>
+        <global>
+            <basic_property movieWidth="400" movieHeight="300" decoration="res/snow2.swf" html_title="Title" loadStyle="Bar" startAutoPlay="true" continuum="true" backgroundColor="" hideAdobeMenu="false" anvsoftMenu="false" photoDynamicShow="false" enableURL="false" transitionArray="" clickToAutoPlay="true" randomPlayingPhotos="false" frameRate="30"/>
+            <title_property showTitle="false" photoTitleColor="0xc0c0c0" backgroundColor="0xc0c0c0" alpha="30" autoHide="true"/>
+            <music_property path="" stream="true" loop="true" enableVolumeDrag="true" defaultVolume="80" musicButtonColor="0xffffff"/>
+            <photo_property topPadding="1" bottomPadding="1" leftPadding="1" rightPadding="1"/>
+            <properties enable="false" backgroundColor="0xc0c0c0" backgroundAlpha="30" cssText="a:link{text-decoration: underline;} a:hover{color:#ff0000; text-decoration: none;} a:active{color:#0000ff;text-decoration: none;} .blue {color:#0000ff; font-size:15px; font-style:italic; text-decoration: underline;} .body{color:#ff5500;font-size:20px;}" align="top"/>
+        </global>
+        <thumbnail>
+            <basic_property thumWidth="80" thumHeight="60" borderColor="0x808080" currentBorderColor="0xfffbf0" thumborder="1" buttonColor="0xfffbf0" thumstextwidth="80" thumstextsize="8" thumstextcolor="0xffffff" thumSpacing="0"/>
+        </thumbnail>
+    </preferences>
+    <album>
+        <slide jpegURL="thumbs/t_0001.jpg" d_URL="slides/p_0001.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="IMG_4459" width="398" height="298"/>
+        <slide jpegURL="thumbs/t_0002.jpg" d_URL="slides/p_0002.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="IMG_4464" width="398" height="298"/>
+        <slide jpegURL="thumbs/t_0003.jpg" d_URL="slides/p_0003.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="IMG_4465" width="398" height="298"/>
+        <slide jpegURL="thumbs/t_0004.jpg" d_URL="slides/p_0004.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="IMG_4454" width="398" height="298"/>
+        <slide jpegURL="thumbs/t_0005.jpg" d_URL="slides/p_0005.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="IMG_4455" width="398" height="298"/>
+        <slide jpegURL="thumbs/t_0006.jpg" d_URL="slides/p_0006.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Shop1" width="398" height="298"/>
+        <slide jpegURL="thumbs/t_0007.jpg" d_URL="slides/p_0007.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="Shop2" width="398" height="298"/>
+        <slide jpegURL="thumbs/t_0008.jpg" d_URL="slides/p_0008.jpg" transition="56" panzoom="1" URLTarget="0" phototime="2" transitiontime="2" url="http://www.photo-flash-maker.com/introduce-photo-flash-maker.php" title="IMG_4470" width="398" height="298"/>
+    </album>
+</flash_parameters>

@@ -1,0 +1,47 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="News.master.cs" Inherits="Front_End_Office_Celebrities_News" %>
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+     <title></title>
+     <asp:ContentPlaceHolder id="head" runat="server">
+    </asp:ContentPlaceHolder>
+
+    <link href="../../CSS/FrontEndStyle.css" rel="stylesheet" type="text/css" />
+
+</head>
+<body>
+    <form id="form1" runat="server">
+   
+    <div id="MenuWrapper">
+
+       <asp:Menu ID="Menu1" runat="server" CssClass="MainMenu" 
+            DataSourceID="SiteMapDataSource1" Orientation="Horizontal">
+        </asp:Menu>
+     
+    
+        <asp:SiteMapDataSource ID="SiteMapDataSource1" runat="server" 
+            ShowStartingNode="False" />
+    </div>
+    
+    
+<div id="PageWrapper">
+    <div id="Sidebar">
+             <asp:ContentPlaceHolder ID="ContentPlaceHolder2" runat="server">
+             </asp:ContentPlaceHolder>
+        </div>
+    <div id="MainContent">
+   
+        <asp:ContentPlaceHolder id="ContentPlaceHolder1" runat="server">
+            
+        </asp:ContentPlaceHolder>
+        </div>
+         
+        
+   
+    </div>
+    </form>
+</body>
+</html>
+

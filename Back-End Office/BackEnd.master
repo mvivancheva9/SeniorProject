@@ -1,0 +1,38 @@
+﻿<%@ Master Language="C#" AutoEventWireup="true" CodeFile="BackEnd.master.cs" Inherits="Back_End_Office_BackEnd" %>
+
+
+
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head id="Head1" runat="server">
+  <title>Администрационен Панел</title>
+    <link href="../CSS/BackOffice.css" rel="stylesheet" type="text/css" />
+</head>
+<body>
+  <form id="form1" runat="server">
+  <div id="PageWrapper">
+      <div class="Left">
+       
+      </div>
+      <div class="Right">
+        <div class="AdminHeader">
+          <asp:ContentPlaceHolder ID="titlePlaceHolder" runat="server">
+          </asp:ContentPlaceHolder>
+        </div>
+        <div id="MenuWrapper">
+            <asp:Menu ID="Menu1" runat="server" DataSourceID="Web2SiteMap" 
+                Orientation="Horizontal" CssClass="MainMenu">
+            </asp:Menu>
+            <asp:SiteMapDataSource ID="Web2SiteMap" runat="server" 
+                ShowStartingNode="False" SiteMapProvider="Web2SiteMap" />
+        </div>
+      </div>
+      <div id="AdminContents">
+        <asp:ContentPlaceHolder ID="adminPlaceHolder" runat="server">
+        </asp:ContentPlaceHolder>
+      </div>
+  </div>
+  </form>
+</body>
+</html>
